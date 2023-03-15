@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url(/images/bg800bulbs.jpg);
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+
+nav a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.heroimage {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    border-bottom: 1px dotted #000;
+    margin-bottom: 0.6rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px dotted #000;
+}
+
+p {
+    line-height: 1.4;
+}
+
+main {
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.wrapper {
+    max-width: 50vw;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.f-right {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.f-left {
+    float: left;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding-right: 1rem;
+}
+
+span {
+    font-weight: 900;
+}
+
+footer {
+    background-color: orange;
+    padding: 2rem;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.8rem;
+}
+
+.b2t {
+background-color: orange;
+padding: 1rem;
+border-radius: 16px;
+display: block;
+width: 30%;
+text-align: center;
+text-decoration: none;
+margin: 1rem;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0px 0px 10px rgba(35, 35, 14, 0.8);
+}
+
+.divider {
+    clear: both;
+    height: 1rem;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
